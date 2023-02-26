@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.89);
+    height: 100vh;
+}
+#navbar{
+    height: 110px;
+    /* border: 2px solid; */
+    text-align: center;
+}
+#navbar img{
+    width: 140px;
+    height: 125px;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    margin: 0px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    overflow: auto;
+    background-color: rgb(236, 220, 220);
+}
+.message{
+    width: 225px;
+    height:30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;  
+    margin: 15px 0px; 
+    font-size: 17px; 
+    
+}
+.left{
+    float: left;
+    clear: both;
+    background-color: rgb(240, 233, 233);
+}
+.right{
+    float: right;
+    clear: both;
+    background-color: #a8d2f4;
+}
+#send{
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+#messageinp{
+    padding: 12px;
+    width: 501px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+#btn{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(105, 105, 255);
+    border-radius: 10px;
+}

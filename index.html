@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ff7689a9a2.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.tiny.cloud/1/4ss1qgddezi77jshwk0etmks3bnixuvvhf5ojti7jk3i3mlj/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script defer src="/socket.io/socket.io.js"></script> <!--linking socket library-->
+    <script defer src="client.js"></script>  <!--linking js file-->
+    <link rel="stylesheet" href="style.css"><!--linking css file-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css"><!--linking css file for emoji-->
+    <title>Realtime Chat Application</title>
+</head> 
+
+<body>
+    <nav id="navbar"><img src="logo.png" alt="logo"></nav>
+    <div class="container">
+        <!-- <div class="message right">right side message(send)</div>
+        <div class="message left">left side message(receive)</div>       -->
+    </div>
+    <form action="#" id="send">
+        <input type="text" name="message" id="messageinp" placeholder="Type Message...">      
+        <button type="submit" id="btn">Send<i class='fa fa-paper-plane' style='color: white'></i></button>
+    </form>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+     <script>
+        $('#messageinp').emojioneArea({
+            pickerPosition:'top'
+        })
+    </script> --> 
+</body>
+
+</html>

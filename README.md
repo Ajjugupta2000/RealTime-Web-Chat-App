@@ -29,5 +29,7 @@ Note : first install nodemon by running command `npm nodemon`
    3. When a user types a message, the message should be sent to the server over the WebSocket connection.
    4. The server should broadcast the message to all connected clients, including the sender.
    5. Each client should receive the message and display it in the chat interface.
+   
+# Happy Coding !🙂🙂     
  
 

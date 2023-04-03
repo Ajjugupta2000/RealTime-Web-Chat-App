@@ -27,9 +27,12 @@ Note : first install nodemon by running command `npm nodemon`
    1. Open two or more tabs in your web browser with the same URL (e.g., http://localhost:3000).
    2. In each tab, enter a different username in prompt section to differentiate between the users.
    3. When a user types a message, the message should be sent to the server over the WebSocket connection.
-   4. The server should broadcast the message to all connected clients, including the sender.
+   4. The server should broadcast the message to all connected clients and play a bip sound to alert the clients that a new message has been received.
    5. Each client should receive the message and display it in the chat interface.
-   
+
+# Project Demo
+https://user-images.githubusercontent.com/72141908/229583438-384903dd-73be-4ea9-8057-f6fa5f12b9d3.mp4
+
 # Happy Coding !🙂🙂     
  
 
